@@ -1,0 +1,37 @@
+--2024-08-05 09:32:30--  http://%20/
+Resolving   ( )... failed: Name or service not known.
+wget: unable to resolve host address ‘ ’
+--2024-08-05 09:32:30--  https://pkg.jenkins.io/debian/jenkins.io-2023.keyecho
+Resolving pkg.jenkins.io (pkg.jenkins.io)... 151.101.190.133, 2a04:4e42:82::645
+Connecting to pkg.jenkins.io (pkg.jenkins.io)|151.101.190.133|:443... connected.
+HTTP request sent, awaiting response... 404 Not Found
+2024-08-05 09:32:31 ERROR 404: Not Found.
+
+Warning: wildcards not supported in HTTP.
+--2024-08-05 09:32:31--  http://deb%20%5Bsigned-by=/usr/share/keyrings/jenkins-keyring.asc]
+Resolving deb [signed-by= (deb [signed-by=)... failed: Name or service not known.
+wget: unable to resolve host address ‘deb [signed-by=’
+--2024-08-05 09:32:31--  http://%20/
+Resolving   ( )... failed: Name or service not known.
+wget: unable to resolve host address ‘ ’
+--2024-08-05 09:32:31--  https://pkg.jenkins.io/debian
+Reusing existing connection to pkg.jenkins.io:443.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://pkg.origin.jenkins.io/debian/ [following]
+--2024-08-05 09:32:31--  https://pkg.origin.jenkins.io/debian/
+Resolving pkg.origin.jenkins.io (pkg.origin.jenkins.io)... 52.202.51.185
+Connecting to pkg.origin.jenkins.io (pkg.origin.jenkins.io)|52.202.51.185|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 6653 (6.5K) [text/html]
+Saving to: ‘/usr/share/keyrings/jenkins-keyring.asc’
+
+/usr/share/keyrings/jenkins-keyring.asc   0%[                                                                             ]       0  --.-KB/s               /usr/share/keyrings/jenkins-keyring.asc 100%[============================================================================>]   6.50K  --.-KB/s    in 0s      
+
+2024-08-05 09:32:32 (203 MB/s) - ‘/usr/share/keyrings/jenkins-keyring.asc’ saved [6653/6653]
+
+--2024-08-05 09:32:32--  http://binary/
+Resolving binary (binary)... failed: Temporary failure in name resolution.
+wget: unable to resolve host address ‘binary’
+FINISHED --2024-08-05 09:32:32--
+Total wall clock time: 1.6s
+Downloaded: 1 files, 6.5K in 0s (203 MB/s)
